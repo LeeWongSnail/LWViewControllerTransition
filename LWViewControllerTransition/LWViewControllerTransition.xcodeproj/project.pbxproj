@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB908E6622204BB200A4ECCC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB908E6522204BB200A4ECCC /* AppDelegate.m */; };
+		EB908E6922204BB200A4ECCC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB908E6822204BB200A4ECCC /* ViewController.m */; };
+		EB908E6C22204BB200A4ECCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB908E6A22204BB200A4ECCC /* Main.storyboard */; };
+		EB908E6E22204BB400A4ECCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB908E6D22204BB400A4ECCC /* Assets.xcassets */; };
+		EB908E7122204BB400A4ECCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB908E6F22204BB400A4ECCC /* LaunchScreen.storyboard */; };
+		EB908E7422204BB400A4ECCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB908E7322204BB400A4ECCC /* main.m */; };
+		EB908E7E22204BB400A4ECCC /* LWViewControllerTransitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB908E7D22204BB400A4ECCC /* LWViewControllerTransitionTests.m */; };
+		EB908E8922204BB400A4ECCC /* LWViewControllerTransitionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB908E8822204BB400A4ECCC /* LWViewControllerTransitionUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB908E7A22204BB400A4ECCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB908E5922204BB200A4ECCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB908E6022204BB200A4ECCC;
+			remoteInfo = LWViewControllerTransition;
+		};
+		EB908E8522204BB400A4ECCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB908E5922204BB200A4ECCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB908E6022204BB200A4ECCC;
+			remoteInfo = LWViewControllerTransition;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB908E6122204BB200A4ECCC /* LWViewControllerTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LWViewControllerTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB908E6422204BB200A4ECCC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EB908E6522204BB200A4ECCC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EB908E6722204BB200A4ECCC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EB908E6822204BB200A4ECCC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EB908E6B22204BB200A4ECCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB908E6D22204BB400A4ECCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB908E7022204BB400A4ECCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB908E7222204BB400A4ECCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB908E7322204BB400A4ECCC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB908E7922204BB400A4ECCC /* LWViewControllerTransitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LWViewControllerTransitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB908E7D22204BB400A4ECCC /* LWViewControllerTransitionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWViewControllerTransitionTests.m; sourceTree = "<group>"; };
+		EB908E7F22204BB400A4ECCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB908E8422204BB400A4ECCC /* LWViewControllerTransitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LWViewControllerTransitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB908E8822204BB400A4ECCC /* LWViewControllerTransitionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWViewControllerTransitionUITests.m; sourceTree = "<group>"; };
+		EB908E8A22204BB400A4ECCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB908E5E22204BB200A4ECCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB908E7622204BB400A4ECCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB908E8122204BB400A4ECCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB908E5822204BB200A4ECCC = {
+			isa = PBXGroup;
+			children = (
+				EB908E6322204BB200A4ECCC /* LWViewControllerTransition */,
+				EB908E7C22204BB400A4ECCC /* LWViewControllerTransitionTests */,
+				EB908E8722204BB400A4ECCC /* LWViewControllerTransitionUITests */,
+				EB908E6222204BB200A4ECCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB908E6222204BB200A4ECCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB908E6122204BB200A4ECCC /* LWViewControllerTransition.app */,
+				EB908E7922204BB400A4ECCC /* LWViewControllerTransitionTests.xctest */,
+				EB908E8422204BB400A4ECCC /* LWViewControllerTransitionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB908E6322204BB200A4ECCC /* LWViewControllerTransition */ = {
+			isa = PBXGroup;
+			children = (
+				EB908E6422204BB200A4ECCC /* AppDelegate.h */,
+				EB908E6522204BB200A4ECCC /* AppDelegate.m */,
+				EB908E6722204BB200A4ECCC /* ViewController.h */,
+				EB908E6822204BB200A4ECCC /* ViewController.m */,
+				EB908E6A22204BB200A4ECCC /* Main.storyboard */,
+				EB908E6D22204BB400A4ECCC /* Assets.xcassets */,
+				EB908E6F22204BB400A4ECCC /* LaunchScreen.storyboard */,
+				EB908E7222204BB400A4ECCC /* Info.plist */,
+				EB908E7322204BB400A4ECCC /* main.m */,
+			);
+			path = LWViewControllerTransition;
+			sourceTree = "<group>";
+		};
+		EB908E7C22204BB400A4ECCC /* LWViewControllerTransitionTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB908E7D22204BB400A4ECCC /* LWViewControllerTransitionTests.m */,
+				EB908E7F22204BB400A4ECCC /* Info.plist */,
+			);
+			path = LWViewControllerTransitionTests;
+			sourceTree = "<group>";
+		};
+		EB908E8722204BB400A4ECCC /* LWViewControllerTransitionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB908E8822204BB400A4ECCC /* LWViewControllerTransitionUITests.m */,
+				EB908E8A22204BB400A4ECCC /* Info.plist */,
+			);
+			path = LWViewControllerTransitionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB908E6022204BB200A4ECCC /* LWViewControllerTransition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB908E8D22204BB400A4ECCC /* Build configuration list for PBXNativeTarget "LWViewControllerTransition" */;
+			buildPhases = (
+				EB908E5D22204BB200A4ECCC /* Sources */,
+				EB908E5E22204BB200A4ECCC /* Frameworks */,
+				EB908E5F22204BB200A4ECCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LWViewControllerTransition;
+			productName = LWViewControllerTransition;
+			productReference = EB908E6122204BB200A4ECCC /* LWViewControllerTransition.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB908E7822204BB400A4ECCC /* LWViewControllerTransitionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB908E9022204BB400A4ECCC /* Build configuration list for PBXNativeTarget "LWViewControllerTransitionTests" */;
+			buildPhases = (
+				EB908E7522204BB400A4ECCC /* Sources */,
+				EB908E7622204BB400A4ECCC /* Frameworks */,
+				EB908E7722204BB400A4ECCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB908E7B22204BB400A4ECCC /* PBXTargetDependency */,
+			);
+			name = LWViewControllerTransitionTests;
+			productName = LWViewControllerTransitionTests;
+			productReference = EB908E7922204BB400A4ECCC /* LWViewControllerTransitionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB908E8322204BB400A4ECCC /* LWViewControllerTransitionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB908E9322204BB400A4ECCC /* Build configuration list for PBXNativeTarget "LWViewControllerTransitionUITests" */;
+			buildPhases = (
+				EB908E8022204BB400A4ECCC /* Sources */,
+				EB908E8122204BB400A4ECCC /* Frameworks */,
+				EB908E8222204BB400A4ECCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB908E8622204BB400A4ECCC /* PBXTargetDependency */,
+			);
+			name = LWViewControllerTransitionUITests;
+			productName = LWViewControllerTransitionUITests;
+			productReference = EB908E8422204BB400A4ECCC /* LWViewControllerTransitionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB908E5922204BB200A4ECCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = LeeWong;
+				TargetAttributes = {
+					EB908E6022204BB200A4ECCC = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					EB908E7822204BB400A4ECCC = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EB908E6022204BB200A4ECCC;
+					};
+					EB908E8322204BB400A4ECCC = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EB908E6022204BB200A4ECCC;
+					};
+				};
+			};
+			buildConfigurationList = EB908E5C22204BB200A4ECCC /* Build configuration list for PBXProject "LWViewControllerTransition" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB908E5822204BB200A4ECCC;
+			productRefGroup = EB908E6222204BB200A4ECCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB908E6022204BB200A4ECCC /* LWViewControllerTransition */,
+				EB908E7822204BB400A4ECCC /* LWViewControllerTransitionTests */,
+				EB908E8322204BB400A4ECCC /* LWViewControllerTransitionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB908E5F22204BB200A4ECCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB908E7122204BB400A4ECCC /* LaunchScreen.storyboard in Resources */,
+				EB908E6E22204BB400A4ECCC /* Assets.xcassets in Resources */,
+				EB908E6C22204BB200A4ECCC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB908E7722204BB400A4ECCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB908E8222204BB400A4ECCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB908E5D22204BB200A4ECCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB908E6922204BB200A4ECCC /* ViewController.m in Sources */,
+				EB908E7422204BB400A4ECCC /* main.m in Sources */,
+				EB908E6622204BB200A4ECCC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB908E7522204BB400A4ECCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB908E7E22204BB400A4ECCC /* LWViewControllerTransitionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB908E8022204BB400A4ECCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB908E8922204BB400A4ECCC /* LWViewControllerTransitionUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB908E7B22204BB400A4ECCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB908E6022204BB200A4ECCC /* LWViewControllerTransition */;
+			targetProxy = EB908E7A22204BB400A4ECCC /* PBXContainerItemProxy */;
+		};
+		EB908E8622204BB400A4ECCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB908E6022204BB200A4ECCC /* LWViewControllerTransition */;
+			targetProxy = EB908E8522204BB400A4ECCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB908E6A22204BB200A4ECCC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB908E6B22204BB200A4ECCC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB908E6F22204BB400A4ECCC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB908E7022204BB400A4ECCC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB908E8B22204BB400A4ECCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EB908E8C22204BB400A4ECCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB908E8E22204BB400A4ECCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LWViewControllerTransition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lee.LWViewControllerTransition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB908E8F22204BB400A4ECCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LWViewControllerTransition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lee.LWViewControllerTransition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EB908E9122204BB400A4ECCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LWViewControllerTransitionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lee.LWViewControllerTransitionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LWViewControllerTransition.app/LWViewControllerTransition";
+			};
+			name = Debug;
+		};
+		EB908E9222204BB400A4ECCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LWViewControllerTransitionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lee.LWViewControllerTransitionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LWViewControllerTransition.app/LWViewControllerTransition";
+			};
+			name = Release;
+		};
+		EB908E9422204BB400A4ECCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LWViewControllerTransitionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lee.LWViewControllerTransitionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LWViewControllerTransition;
+			};
+			name = Debug;
+		};
+		EB908E9522204BB400A4ECCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LWViewControllerTransitionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lee.LWViewControllerTransitionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LWViewControllerTransition;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB908E5C22204BB200A4ECCC /* Build configuration list for PBXProject "LWViewControllerTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB908E8B22204BB400A4ECCC /* Debug */,
+				EB908E8C22204BB400A4ECCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB908E8D22204BB400A4ECCC /* Build configuration list for PBXNativeTarget "LWViewControllerTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB908E8E22204BB400A4ECCC /* Debug */,
+				EB908E8F22204BB400A4ECCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB908E9022204BB400A4ECCC /* Build configuration list for PBXNativeTarget "LWViewControllerTransitionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB908E9122204BB400A4ECCC /* Debug */,
+				EB908E9222204BB400A4ECCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB908E9322204BB400A4ECCC /* Build configuration list for PBXNativeTarget "LWViewControllerTransitionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB908E9422204BB400A4ECCC /* Debug */,
+				EB908E9522204BB400A4ECCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB908E5922204BB200A4ECCC /* Project object */;
+}
