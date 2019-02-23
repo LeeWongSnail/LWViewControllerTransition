@@ -6,10 +6,10 @@
 //  Copyright © 2019 LeeWong. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
-@interface ViewController : UIViewController
-
+@interface ViewController : BaseViewController
+@property (nonatomic, strong) UIView *topView;
 
 @end
 

@@ -16,6 +16,12 @@
 		EB908E7422204BB400A4ECCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB908E7322204BB400A4ECCC /* main.m */; };
 		EB908E7E22204BB400A4ECCC /* LWViewControllerTransitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB908E7D22204BB400A4ECCC /* LWViewControllerTransitionTests.m */; };
 		EB908E8922204BB400A4ECCC /* LWViewControllerTransitionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB908E8822204BB400A4ECCC /* LWViewControllerTransitionUITests.m */; };
+		EB908EAC2220E67400A4ECCC /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB908EA62220E67400A4ECCC /* BaseViewController.m */; };
+		EB908EAD2220E67400A4ECCC /* ULPushTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EB908EA72220E67400A4ECCC /* ULPushTransitionAnimation.m */; };
+		EB908EAE2220E67400A4ECCC /* ULPopTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EB908EA82220E67400A4ECCC /* ULPopTransitionAnimation.m */; };
+		EB908EAF2220E67400A4ECCC /* PresentAnimationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB908EA92220E67400A4ECCC /* PresentAnimationDelegate.m */; };
+		EB908EB42220E6FC00A4ECCC /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB908EB22220E6FC00A4ECCC /* FirstViewController.m */; };
+		EB908EB52220E6FC00A4ECCC /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB908EB32220E6FC00A4ECCC /* SecondViewController.m */; };
 		ECE04BB7CB2893F3594D2F63 /* libPods-LWViewControllerTransition.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A13C66EDA438525BF4754C8 /* libPods-LWViewControllerTransition.a */; };
 		EF1096BAC608B9BD299D5B29 /* libPods-LWViewControllerTransitionUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7E78E31E2418297D944AC52 /* libPods-LWViewControllerTransitionUITests.a */; };
 /* End PBXBuildFile section */
@@ -60,6 +66,18 @@
 		EB908E8422204BB400A4ECCC /* LWViewControllerTransitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LWViewControllerTransitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB908E8822204BB400A4ECCC /* LWViewControllerTransitionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWViewControllerTransitionUITests.m; sourceTree = "<group>"; };
 		EB908E8A22204BB400A4ECCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB908EA42220E67400A4ECCC /* PresentAnimationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentAnimationDelegate.h; sourceTree = "<group>"; };
+		EB908EA52220E67400A4ECCC /* ULPopTransitionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ULPopTransitionAnimation.h; sourceTree = "<group>"; };
+		EB908EA62220E67400A4ECCC /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		EB908EA72220E67400A4ECCC /* ULPushTransitionAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ULPushTransitionAnimation.m; sourceTree = "<group>"; };
+		EB908EA82220E67400A4ECCC /* ULPopTransitionAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ULPopTransitionAnimation.m; sourceTree = "<group>"; };
+		EB908EA92220E67400A4ECCC /* PresentAnimationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentAnimationDelegate.m; sourceTree = "<group>"; };
+		EB908EAA2220E67400A4ECCC /* ULPushTransitionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ULPushTransitionAnimation.h; sourceTree = "<group>"; };
+		EB908EAB2220E67400A4ECCC /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		EB908EB02220E6FC00A4ECCC /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		EB908EB12220E6FC00A4ECCC /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		EB908EB22220E6FC00A4ECCC /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		EB908EB32220E6FC00A4ECCC /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		EEF4C7A63AEF18715DB9CA87 /* Pods-LWViewControllerTransitionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWViewControllerTransitionTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LWViewControllerTransitionTests/Pods-LWViewControllerTransitionTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F65BDF0F22598BC13833149B /* libPods-LWViewControllerTransitionTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LWViewControllerTransitionTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7E78E31E2418297D944AC52 /* libPods-LWViewControllerTransitionUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LWViewControllerTransitionUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -141,6 +159,11 @@
 		EB908E6322204BB200A4ECCC /* LWViewControllerTransition */ = {
 			isa = PBXGroup;
 			children = (
+				EB908EB12220E6FC00A4ECCC /* FirstViewController.h */,
+				EB908EB22220E6FC00A4ECCC /* FirstViewController.m */,
+				EB908EB02220E6FC00A4ECCC /* SecondViewController.h */,
+				EB908EB32220E6FC00A4ECCC /* SecondViewController.m */,
+				EB908EA32220E67400A4ECCC /* Transition */,
 				EB908E6422204BB200A4ECCC /* AppDelegate.h */,
 				EB908E6522204BB200A4ECCC /* AppDelegate.m */,
 				EB908E6722204BB200A4ECCC /* ViewController.h */,
@@ -170,6 +193,21 @@
 				EB908E8A22204BB400A4ECCC /* Info.plist */,
 			);
 			path = LWViewControllerTransitionUITests;
+			sourceTree = "<group>";
+		};
+		EB908EA32220E67400A4ECCC /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				EB908EAB2220E67400A4ECCC /* BaseViewController.h */,
+				EB908EA62220E67400A4ECCC /* BaseViewController.m */,
+				EB908EA42220E67400A4ECCC /* PresentAnimationDelegate.h */,
+				EB908EA92220E67400A4ECCC /* PresentAnimationDelegate.m */,
+				EB908EA52220E67400A4ECCC /* ULPopTransitionAnimation.h */,
+				EB908EA82220E67400A4ECCC /* ULPopTransitionAnimation.m */,
+				EB908EAA2220E67400A4ECCC /* ULPushTransitionAnimation.h */,
+				EB908EA72220E67400A4ECCC /* ULPushTransitionAnimation.m */,
+			);
+			path = Transition;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -362,9 +400,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB908EB52220E6FC00A4ECCC /* SecondViewController.m in Sources */,
 				EB908E6922204BB200A4ECCC /* ViewController.m in Sources */,
+				EB908EAC2220E67400A4ECCC /* BaseViewController.m in Sources */,
+				EB908EAE2220E67400A4ECCC /* ULPopTransitionAnimation.m in Sources */,
+				EB908EAD2220E67400A4ECCC /* ULPushTransitionAnimation.m in Sources */,
 				EB908E7422204BB400A4ECCC /* main.m in Sources */,
 				EB908E6622204BB200A4ECCC /* AppDelegate.m in Sources */,
+				EB908EAF2220E67400A4ECCC /* PresentAnimationDelegate.m in Sources */,
+				EB908EB42220E6FC00A4ECCC /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
