@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B343261114DA92099C1A39C /* libPods-LWViewControllerTransitionTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F65BDF0F22598BC13833149B /* libPods-LWViewControllerTransitionTests.a */; };
 		EB908E6622204BB200A4ECCC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB908E6522204BB200A4ECCC /* AppDelegate.m */; };
 		EB908E6922204BB200A4ECCC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB908E6822204BB200A4ECCC /* ViewController.m */; };
 		EB908E6C22204BB200A4ECCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB908E6A22204BB200A4ECCC /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 		EB908E7422204BB400A4ECCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB908E7322204BB400A4ECCC /* main.m */; };
 		EB908E7E22204BB400A4ECCC /* LWViewControllerTransitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB908E7D22204BB400A4ECCC /* LWViewControllerTransitionTests.m */; };
 		EB908E8922204BB400A4ECCC /* LWViewControllerTransitionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB908E8822204BB400A4ECCC /* LWViewControllerTransitionUITests.m */; };
+		ECE04BB7CB2893F3594D2F63 /* libPods-LWViewControllerTransition.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A13C66EDA438525BF4754C8 /* libPods-LWViewControllerTransition.a */; };
+		EF1096BAC608B9BD299D5B29 /* libPods-LWViewControllerTransitionUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7E78E31E2418297D944AC52 /* libPods-LWViewControllerTransitionUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A13C66EDA438525BF4754C8 /* libPods-LWViewControllerTransition.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LWViewControllerTransition.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		348C645FACA29D7225660620 /* Pods-LWViewControllerTransition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWViewControllerTransition.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LWViewControllerTransition/Pods-LWViewControllerTransition.debug.xcconfig"; sourceTree = "<group>"; };
+		57D705FC2DA7E943590FDBFA /* Pods-LWViewControllerTransitionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWViewControllerTransitionTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LWViewControllerTransitionTests/Pods-LWViewControllerTransitionTests.release.xcconfig"; sourceTree = "<group>"; };
+		9FE3E6171CBD9AED6D172FA4 /* Pods-LWViewControllerTransitionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWViewControllerTransitionUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LWViewControllerTransitionUITests/Pods-LWViewControllerTransitionUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C89EDDD7816EFA958E94B022 /* Pods-LWViewControllerTransition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWViewControllerTransition.release.xcconfig"; path = "Pods/Target Support Files/Pods-LWViewControllerTransition/Pods-LWViewControllerTransition.release.xcconfig"; sourceTree = "<group>"; };
+		E9A698F61C8A6A845A9BCEDA /* Pods-LWViewControllerTransitionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWViewControllerTransitionUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LWViewControllerTransitionUITests/Pods-LWViewControllerTransitionUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		EB908E6122204BB200A4ECCC /* LWViewControllerTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LWViewControllerTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB908E6422204BB200A4ECCC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EB908E6522204BB200A4ECCC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +60,9 @@
 		EB908E8422204BB400A4ECCC /* LWViewControllerTransitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LWViewControllerTransitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB908E8822204BB400A4ECCC /* LWViewControllerTransitionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWViewControllerTransitionUITests.m; sourceTree = "<group>"; };
 		EB908E8A22204BB400A4ECCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEF4C7A63AEF18715DB9CA87 /* Pods-LWViewControllerTransitionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWViewControllerTransitionTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LWViewControllerTransitionTests/Pods-LWViewControllerTransitionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F65BDF0F22598BC13833149B /* libPods-LWViewControllerTransitionTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LWViewControllerTransitionTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7E78E31E2418297D944AC52 /* libPods-LWViewControllerTransitionUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LWViewControllerTransitionUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECE04BB7CB2893F3594D2F63 /* libPods-LWViewControllerTransition.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B343261114DA92099C1A39C /* libPods-LWViewControllerTransitionTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF1096BAC608B9BD299D5B29 /* libPods-LWViewControllerTransitionUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E790E08E72BB1C94AB9AB78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A13C66EDA438525BF4754C8 /* libPods-LWViewControllerTransition.a */,
+				F65BDF0F22598BC13833149B /* libPods-LWViewControllerTransitionTests.a */,
+				F7E78E31E2418297D944AC52 /* libPods-LWViewControllerTransitionUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5AD6F3BF0D0B91B6142E2ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				348C645FACA29D7225660620 /* Pods-LWViewControllerTransition.debug.xcconfig */,
+				C89EDDD7816EFA958E94B022 /* Pods-LWViewControllerTransition.release.xcconfig */,
+				EEF4C7A63AEF18715DB9CA87 /* Pods-LWViewControllerTransitionTests.debug.xcconfig */,
+				57D705FC2DA7E943590FDBFA /* Pods-LWViewControllerTransitionTests.release.xcconfig */,
+				E9A698F61C8A6A845A9BCEDA /* Pods-LWViewControllerTransitionUITests.debug.xcconfig */,
+				9FE3E6171CBD9AED6D172FA4 /* Pods-LWViewControllerTransitionUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EB908E5822204BB200A4ECCC = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +123,8 @@
 				EB908E7C22204BB400A4ECCC /* LWViewControllerTransitionTests */,
 				EB908E8722204BB400A4ECCC /* LWViewControllerTransitionUITests */,
 				EB908E6222204BB200A4ECCC /* Products */,
+				B5AD6F3BF0D0B91B6142E2ED /* Pods */,
+				0E790E08E72BB1C94AB9AB78 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,6 +179,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB908E8D22204BB400A4ECCC /* Build configuration list for PBXNativeTarget "LWViewControllerTransition" */;
 			buildPhases = (
+				55B1D4DEE133DF3ECAD17D6B /* [CP] Check Pods Manifest.lock */,
 				EB908E5D22204BB200A4ECCC /* Sources */,
 				EB908E5E22204BB200A4ECCC /* Frameworks */,
 				EB908E5F22204BB200A4ECCC /* Resources */,
@@ -156,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB908E9022204BB400A4ECCC /* Build configuration list for PBXNativeTarget "LWViewControllerTransitionTests" */;
 			buildPhases = (
+				549BCFC53B7CAC7F563F6F23 /* [CP] Check Pods Manifest.lock */,
 				EB908E7522204BB400A4ECCC /* Sources */,
 				EB908E7622204BB400A4ECCC /* Frameworks */,
 				EB908E7722204BB400A4ECCC /* Resources */,
@@ -174,6 +216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB908E9322204BB400A4ECCC /* Build configuration list for PBXNativeTarget "LWViewControllerTransitionUITests" */;
 			buildPhases = (
+				14ECD05B6002D0D6873E5557 /* [CP] Check Pods Manifest.lock */,
 				EB908E8022204BB400A4ECCC /* Sources */,
 				EB908E8122204BB400A4ECCC /* Frameworks */,
 				EB908E8222204BB400A4ECCC /* Resources */,
@@ -256,6 +299,63 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14ECD05B6002D0D6873E5557 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LWViewControllerTransitionUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		549BCFC53B7CAC7F563F6F23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LWViewControllerTransitionTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55B1D4DEE133DF3ECAD17D6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LWViewControllerTransition-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EB908E5D22204BB200A4ECCC /* Sources */ = {
@@ -433,6 +533,7 @@
 		};
 		EB908E8E22204BB400A4ECCC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 348C645FACA29D7225660620 /* Pods-LWViewControllerTransition.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +550,7 @@
 		};
 		EB908E8F22204BB400A4ECCC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C89EDDD7816EFA958E94B022 /* Pods-LWViewControllerTransition.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -465,6 +567,7 @@
 		};
 		EB908E9122204BB400A4ECCC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEF4C7A63AEF18715DB9CA87 /* Pods-LWViewControllerTransitionTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -483,6 +586,7 @@
 		};
 		EB908E9222204BB400A4ECCC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57D705FC2DA7E943590FDBFA /* Pods-LWViewControllerTransitionTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -501,6 +605,7 @@
 		};
 		EB908E9422204BB400A4ECCC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9A698F61C8A6A845A9BCEDA /* Pods-LWViewControllerTransitionUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LWViewControllerTransitionUITests/Info.plist;
@@ -518,6 +623,7 @@
 		};
 		EB908E9522204BB400A4ECCC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FE3E6171CBD9AED6D172FA4 /* Pods-LWViewControllerTransitionUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LWViewControllerTransitionUITests/Info.plist;
